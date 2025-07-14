@@ -1,5 +1,5 @@
 from google.adk.agents import LlmAgent
-from web_scraping_tool import scrape_website
+from .web_scraping_tool import scrape_website
 
 
 test_agent = LlmAgent(
