@@ -14,4 +14,4 @@ COPY . .
 ENV GOOGLE_API_KEY=${GOOGLE_API_KEY}
 
 # Command to run the application
-CMD ["python", "-m", "agent.agent"]
+CMD ["python", "agent.py"]
